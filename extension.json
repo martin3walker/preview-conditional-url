@@ -1,0 +1,42 @@
+{
+  "id": "preview-conditional-url",
+  "name": "preview-conditional-url",
+  "srcdoc": "./build/index.html",
+  "sidebar": true,
+  "parameters": {
+    "installation": [
+      {
+        "id": "baseUrl",
+        "name": "Base Url",
+        "description": "Base url of the for preview",
+        "type": "Symbol"
+      }
+    ],
+    "instance": [
+      {
+        "id": "slugSection1",
+        "name": "Slug Section 1",
+        "description": "Either the id of the field you want to append to the base url or a string you want to append to the the base url",
+        "type": "Symbol"
+      },
+      {
+        "id": "slugSection2",
+        "name": "Slug Section 2",
+        "description": "Either the id of the field you want to append to the base url and previous slug sections or a string you want to append to the the base url",
+        "type": "Symbol"
+      },
+      {
+        "id": "slugSection3",
+        "name": "Slug Section 3",
+        "description": "Either the id of the field you want to append to the base url and previous slug sections or a string you want to append to the the base url",
+        "type": "Symbol"
+      },
+      {
+        "id": "slugSection4",
+        "name": "Slug Section 4",
+        "description": "Either the id of the field you want to append to the base url and previous slug sections or a string you want to append to the the base url",
+        "type": "Symbol"
+      }
+    ]
+  }
+}
